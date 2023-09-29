@@ -528,6 +528,11 @@ footer p {
         width: 70%;
     }
 
+    .fixed {
+        display: none;
+    }
+
+
 
 @media screen and (max-width: 1380px) {
     header {
@@ -632,6 +637,10 @@ footer p {
         height: 590px;
     }
 
+    .contacto{
+        flex-direction: column;
+    }
+
     .titular h1 {
         font-size: 30px;
     }
@@ -688,6 +697,14 @@ footer p {
 
 
 }
+
+@media screen and (max-width: 600px){
+    .tamaño{
+        width: 340px;
+        margin: 30px;
+        }
+}
+
 
 @media screen and (max-width: 454px) {
 
